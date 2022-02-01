@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 50%;
+  height: 400px;
+}
+.epam {
+  font-size: 1.8em;
+  color: #fff;
+  background-color: #76CDD8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description p{
+  font-style: italic;
+  font-size: 20px;
+  line-height: 2em;
+  width: 70%;
+}
+.description_button{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;*/
+  align-items: center; 
+}
+img{
+  width: 100%; 
+}
