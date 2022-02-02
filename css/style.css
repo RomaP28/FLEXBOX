@@ -1,67 +1,96 @@
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
+  background-color: #F4F4F4;
 }
-.container{
+*{
+  margin: 0;
+  padding: 0;
+}
+.container_wrap{
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+.section_wrap{
   display: flex;
   flex-wrap: wrap;
 }
 .box{
   width: 50%;
   height: 400px;
-}
-.epam {
-  font-size: 1.8em;
-  color: #fff;
-  background-color: #76CDD8;
-}
-.description {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
-.description p{
+.first_box {
+  font-size: 2.6em;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #76CDD8;
+}
+.second_box p{
   font-style: italic;
   font-size: 20px;
   line-height: 2em;
   width: 70%;
 }
-.description_button{
+.third_box{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  display: flex;
   flex-direction: column;
-
+  justify-content: space-around;
 }
-.description_button p{
+.third_box p{
   font-style: normal;
   font-size: 18px;
   line-height: 1.4em;
   width: 100%;
 }
-
-.description_button .button_wrap{
-  align-self: flex-end;
-}
-img{
-  width: 100%; 
+.third_box h2{
+color:#76CDD8;
 }
 .btn{
+  align-self: flex-end;
   cursor: pointer;
   background-color: #019999;
   border: none;
-  padding: 15px 40px;
+  padding: 2em 4em;
   color: white;
 }
 a{
   color:white;
   text-decoration: none;
 }
-.content{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+.box_wrapper{
+  background: url(../img/image-04.jpg) center;
+  background-size: 95% 75%;
+  align-items: stretch;
+  width: 50%;
+  height: 400px;
 }
-.content h2{
-  color: #76CDD8;
+.fifth_box{
+  -webkit-mask:radial-gradient(circle 150px,transparent 98%,#fff 100%);
+  mask:radial-gradient(circle 150px,transparent 98%,#fff 100%);
+  background-color: #76CDD8;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+/* .sixth_box{
+
+} */
+
+.sixth_box img{
+  width: 100%; 
+  height: 100%;
 }
