@@ -182,3 +182,38 @@ font-weight: normal;
 .prices_box_content button{
   margin-top: 30px;
 }
+/* ------------------------------LAST SECTION---------------------------------------------------- */
+.last_section_wrap{
+  position: static;
+  margin-top: 30px;
+}
+.last_section_header{
+  height: 180px;
+  background-color: #23D4D4;
+}
+.last_section_middle{
+  height: 400px;
+}
+.last_section_footer{
+  height: 260px;
+  background-color: #019999;
+}
+.application_form{
+  position:relative;
+  width: 73%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aplication_form_header{
+  height: 120px;
+  color:#fff;
+  display: flex;
+  align-items: center;
+}
+.aplication_form_main{
+  background-color: #fff;
+  height: 510px;
+}
+.aplication_form_footer{
+  color:#fff;
+}
