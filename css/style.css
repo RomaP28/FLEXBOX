@@ -32,6 +32,20 @@ body {
   color: #fff;
   background-color: #76CDD8;
 }
+/* .second_box{
+position: static;
+} */
+.second_box:hover{
+  color:#76CDD8;
+}
+.second_box:hover::before{
+    content: ""; 
+    position: relative;
+    top:-150px;
+    right:-460px;
+    border-top: 100px solid #76CDD8;
+    border-left: 100px solid transparent;
+}
 .second_box p{
   font-style: italic;
   font-size: 20px;
