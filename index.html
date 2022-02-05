@@ -97,21 +97,45 @@
           <div class="aplication_form_header">
             <h2>Application Form</h2>
           </div>
-          <div class="aplication_form_main">
+          <div class="aplication_form_wrap">
             <form>
-              <input type="text" placeholder="Your Name">
-              <input type="mail" placeholder="Your Email">
-              <select>
-                <li>Position</li>
-              </select>
-              <select>
-                <li>Salary</li>
-              </select>
-              <textarea id="textComment" name="textComment"></textarea>
+              <div class="aplication_form_main">
+                <div class="inputs_left">
+                  <input class="text_box" type="text" placeholder="Full Name">
+                  <input class="text_box" type="mail" placeholder="Your Email">
+                  <select class="text_box">
+                    <option>Position</option>
+                    <option>Position</option>
+                    <option>Position</option>
+                  </select>
+                  <select class="text_box">
+                    <option>Salary</option>
+                    <option>Salary</option>
+                    <option>Salary</option>
+                  </select>
+                </div>
+                <div class="inputs_right">
+                  <textarea id="textComment" name="textComment" cols="35" rows="10">Additional message</textarea>
+                </div>
+              </div>
+              <input class="btn submit" type="submit" value="SUBMIT">
             </form>
           </div>
           <div class="aplication_form_footer">
-            <h2>Application Form</h2>
+            <div class="footer_block">
+              <h3>Lorem ipsum dolor</h3>
+              <p>1010 Vivamaus viverra
+                Leo Vel porttitor sodales
+                Non eleifend 10980
+              </p>
+            </div>
+            <div class="footer_block">
+              <p>Masenas fermentum
+                Nam eu justo et urna
+                Semper maximus libero
+                Etiam magna quam.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -119,7 +143,7 @@
       <div class="last_section_footer"></div>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
     <p>Coppyright @ Your Company Name</p>
   </footer>
 </body>

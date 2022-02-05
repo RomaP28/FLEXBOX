@@ -182,7 +182,7 @@ font-weight: normal;
 .prices_box_content button{
   margin-top: 30px;
 }
-/* ------------------------------LAST SECTION---------------------------------------------------- */
+/* ------------------------------APPLICATION SECTION---------------------------------------------------- */
 .last_section_wrap{
   position: static;
   margin-top: 30px;
@@ -210,10 +210,66 @@ font-weight: normal;
   display: flex;
   align-items: center;
 }
-.aplication_form_main{
+.aplication_form_wrap{
   background-color: #fff;
   height: 510px;
 }
 .aplication_form_footer{
   color:#fff;
 }
+.aplication_form_main{
+  height: 380px;
+  display: flex;
+  align-items: center;
+}
+.inputs_left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.inputs_right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.text_box{
+  height: 50px;
+  width: 80%;
+  font-size: 1em;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.submit{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+ }
+ textarea{
+   margin-top: -40px;
+   margin-left: 10px;
+   font-size: 1em;
+ }
+ .aplication_form_footer{
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .footer_block{
+   width:25%;
+ }
+ .footer_block h3{
+  font-weight: bold;
+  font-size: 1.2em;
+ }
+ .footer{
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
