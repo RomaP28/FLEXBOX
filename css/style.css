@@ -26,20 +26,16 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  /* box-sizing: border-box; */
 }
 .first_box {
   font-size: 2.6em;
   font-weight: lighter;
   color: #fff;
   background-color: #76CDD8;
-
 }
-/* .second_box{
-position: relative;
-} */
 .second_box:hover,
-.third_box:hover{
+.third_box:hover,
+.six_box:hover{
   color:#76CDD8;
 }
 .second_box:hover::after{
@@ -128,10 +124,16 @@ a{
   padding-bottom: 50px;
   font-size: 14px;
 }
-.fifth_box{
-  height:400px;
-  background: url(../img/image-01.jpg) center;
-  background-size: 150%;
+.fifth_box {
+  display: block;
+}
+.fifth_box img,
+.section_image img {
+  width: 100%;
+  height: 100%;
+}
+.fifth_box img:hover{
+  transform: scale(1.1);
 }
 .six_box{
   width: 70%;
@@ -141,6 +143,18 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.six_box:hover::after{
+  content: '';
+  position: absolute;
+  top: 850px;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  border: 40px solid transparent;
+  border-top: 40px solid #76cdd8;
+  border-right: 40px solid #76cdd8;
+  box-sizing: border-box;
 }
 .six_box button{
   align-self: center;
@@ -179,14 +193,9 @@ a{
 .section_image{
   width: 35%;
   height: 580px;
-}
-.second_section_image{
-  background: url(../img/image-02.jpg) center/cover;
+  display: block;
 }
 /* ------------------------------THIRD SECTION---------------------------------------------------- */
-.third_section_image{
-  background: url(../img/image-03.jpg) center/cover;
-}
 .third_section_content_box{
   display: flex;
   justify-content: space-around;
@@ -212,12 +221,18 @@ font-weight: normal;
 .prices_box_content{
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .prices_box_content p{
   margin-top: 30px;
 }
 .prices_box_content button{
   margin-top: 30px;
+  align-self: center;
 }
 /* ------------------------------APPLICATION SECTION---------------------------------------------------- */
 .last_section_wrap{
