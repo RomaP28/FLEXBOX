@@ -132,7 +132,9 @@ a{
   width: 100%;
   height: 100%;
 }
-.fifth_box img:hover{
+.fifth_box img:hover,
+.section_image img:hover,
+.specail_discount:hover{
   transform: scale(1.1);
 }
 .six_box{
@@ -202,9 +204,16 @@ a{
   align-items: center;
 }
 .prices_box{
+  display: block;
   border:1px solid #019999;
   width: 46%;
   height: 500px;
+}
+.prices_box:hover{
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+.specail_discount:hover{
+  transform: scale(1.1);
 }
 .header{
   display: flex;
@@ -233,6 +242,16 @@ font-weight: normal;
 .prices_box_content button{
   margin-top: 30px;
   align-self: center;
+}
+.prices_box_content button:hover{
+  background: #24d4d4;
+}
+.star{
+  color: red;
+}
+.discount_sign,
+.star {
+  display: none;
 }
 /* ------------------------------APPLICATION SECTION---------------------------------------------------- */
 .last_section_wrap{
