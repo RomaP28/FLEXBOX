@@ -212,9 +212,19 @@ a{
 .prices_box:hover{
   box-shadow: 0 0 0 0.2rem #24d4d4;
 }
-.specail_discount:hover{
+.special_discount:hover{
   transform: scale(1.1);
 }
+.special_discount:hover .btn{
+  background-color: #24d4d4;
+}
+.special_discount:hover .star{
+  visibility: visible;
+}
+.special_discount:hover #discount_sign {
+  visibility: visible;
+}
+
 .header{
   display: flex;
   justify-content: center;
@@ -235,12 +245,13 @@ font-weight: normal;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5px;
 }
 .prices_box_content p{
   margin-top: 30px;
 }
 .prices_box_content button{
-  margin-top: 30px;
+  margin-top: 20px;
   align-self: center;
 }
 .prices_box_content button:hover{
@@ -249,9 +260,11 @@ font-weight: normal;
 .star{
   color: red;
 }
-.discount_sign,
-.star {
-  display: none;
+#discount_sign{
+  margin-top: 0px;
+  align-self:center;
+  height: 10px;
+  visibility: hidden;
 }
 /* ------------------------------APPLICATION SECTION---------------------------------------------------- */
 .last_section_wrap{
