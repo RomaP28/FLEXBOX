@@ -17,7 +17,6 @@ body {
 .first_section_wrap{
   display: flex;
   flex-wrap: wrap;
-  position: relative;
 }
 .box{
   width: 50%;
@@ -26,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  position: relative;
 }
 .first_box {
   font-size: 2.6em;
@@ -38,7 +38,8 @@ body {
 .six_box:hover{
   color:#76CDD8;
 }
-.second_box:hover::after{
+.second_box:hover::after,
+.six_box:hover::after{
   content: '';
   position: absolute;
   top: 0;
@@ -53,7 +54,7 @@ body {
 .third_box:hover::after{
   content: '';
   position: absolute;
-  top: 400px;
+  top: 0px;
   left: 0;
   width: 80px;
   height: 80px;
@@ -145,18 +146,6 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-.six_box:hover::after{
-  content: '';
-  position: absolute;
-  top: 850px;
-  right: 0;
-  width: 80px;
-  height: 80px;
-  border: 40px solid transparent;
-  border-top: 40px solid #76cdd8;
-  border-right: 40px solid #76cdd8;
-  box-sizing: border-box;
 }
 .six_box button{
   align-self: center;
