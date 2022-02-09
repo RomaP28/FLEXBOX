@@ -127,6 +127,7 @@ a{
 }
 .fifth_box {
   display: block;
+  z-index: 100;
 }
 .fifth_box img,
 .section_image img {
