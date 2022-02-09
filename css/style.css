@@ -316,6 +316,12 @@ font-weight: normal;
   font-size: 1em;
   margin-bottom: 15px;
   margin-right: 10px;
+  border: 1px solid grey;
+}
+.text_box:focus{
+  outline: none;
+  border-color: #24d4d4; 
+  box-shadow: 0 0 0 0.2rem #24d4d4;
 }
 .submit{
   display: block;
@@ -327,19 +333,29 @@ font-weight: normal;
    margin-left: 10px;
    font-size: 1em;
  }
+textarea:focus{
+  outline: none;
+  border-color: #24d4d4; 
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
  .aplication_form_footer{
-   height: 200px;
+  height: 200px;
    display: flex;
    align-items: center;
    justify-content: space-around;
  }
  .footer_block{
+  height: 140px;
    width:25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
  }
  .footer_block h3{
   font-weight: bold;
   font-size: 1.2em;
  }
+ /* ------------------------------FOOTER---------------------------------------------------- */
  .footer{
    height: 60px;
    display: flex;
